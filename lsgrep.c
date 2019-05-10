@@ -1,5 +1,7 @@
 /*
-	Syntax: # lsgrep <dir> <filename>
+	Example to demonstrate IO redirection.
+	This program does the same thing as $ ls -la <dir> | grep <txt>
+	Syntax: $ lsgrep <dir> <txt>
 */
 
 #include <unistd.h>
