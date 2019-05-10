@@ -74,7 +74,7 @@ int main( int argc, char* argv[]){
 	close(pipefd[0]);
 	close(pipefd[1]);
 
-	// Wait for all children, disregard exit status
+	// Wait until there are no more children, disregard exit status
 	while(wait(NULL) > 0);
 
 	return 0;
