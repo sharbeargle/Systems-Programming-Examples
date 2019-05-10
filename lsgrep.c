@@ -63,7 +63,7 @@ int main( int argc, char* argv[]){
 
 		char *new_argv[] = {"/bin/ls", "-la", argv[1], 0};
 
-		execv(new_argv[0], &new_argv[0], 0);
+		execv(new_argv[0], &new_argv[0]);
 
 		return -1;
 	}
