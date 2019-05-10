@@ -1,5 +1,5 @@
 /*
-	Example to demonstrate IO redirection.
+	Example to demonstrate pipe() syscall and IO redirection.
 	This program does the same thing as $ ls -la <dir> | grep <txt>
 	Syntax: $ lsgrep <dir> <txt>
 */
