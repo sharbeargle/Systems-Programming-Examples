@@ -40,7 +40,7 @@ int main( int argc, char* argv[]){
 
 		execv(new_argv[0], &new_argv[0]);
 
-		return -1
+		return -1;
 	} 
 
 	// Fork for ls
